@@ -12,8 +12,10 @@ var config = {
   appId: "1:826447191297:web:53052e8a4677a0d221cf00",
   measurementId: "G-2GLHRRG37W"
 };
-
+firebase.initializeApp(config);
 var firestore = firebase.firestore();
+
+
 
 var ordens = [];
 firestore
