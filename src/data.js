@@ -8,6 +8,8 @@ import ExpandLess from "material-ui/svg-icons/navigation/expand-less";
 import ExpandMore from "material-ui/svg-icons/navigation/expand-more";
 import ChevronRight from "material-ui/svg-icons/navigation/chevron-right";
 
+import Firebase from "./components/Firebase/firebase";
+
 const data = {
   menus: [
     { text: "DashBoard", icon: <Assessment />, link: "/dashboard" },

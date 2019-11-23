@@ -14,6 +14,7 @@ import ContentAdd from "material-ui/svg-icons/content/add";
 import { pink500, grey200, grey500 } from "material-ui/styles/colors";
 import PageBase from "../components/PageBase";
 import Data from "../data";
+import Menu from "../components/Firebase/firebase";
 
 const TablePage = () => {
   const styles = {
@@ -48,7 +49,7 @@ const TablePage = () => {
   };
 
   return (
-    <PageBase title="Menú" navigation="Application / Table Page">
+    <PageBase title="Menú" navigation="EatOnTimeTec / Menú">
       <div>
         <Link to="/form">
           <FloatingActionButton
