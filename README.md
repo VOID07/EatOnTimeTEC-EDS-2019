@@ -7,7 +7,7 @@ Special edition, applied on EOTT
 Demo
 ----
 
-You can find a demo [here](http://rafaelhz.github.io/react-material-admin-template).
+You can find a demo [here](https://767sl.csb.app/dashboard).
 
 
 Installation / Running
